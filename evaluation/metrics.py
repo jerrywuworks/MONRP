@@ -2,7 +2,6 @@ import math
 from typing import List
 import numpy as np
 from datasets.Dataset import Dataset
-from pymoo.factory import get_performance_indicator
 from pymoo.visualization.scatter import Scatter
 from models.Solution import Solution
 from pymoo.indicators.gd_plus import GDPlus

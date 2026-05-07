@@ -3,7 +3,6 @@ import sys
 from typing import Any, Dict, List, Tuple
 
 from pymoo.algorithms.moo.nsga2 import NSGA2
-from pymoo.factory import get_crossover, get_mutation, get_sampling
 from pymoo.operators.crossover.pntx import SinglePointCrossover
 from pymoo.operators.mutation.bitflip import BitflipMutation
 from pymoo.operators.sampling.rnd import BinaryRandomSampling
